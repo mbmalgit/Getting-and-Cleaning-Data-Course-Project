@@ -16,7 +16,7 @@ Creating a final, independent tidy data set with the average of each variable fo
 
 Melting data and calculating averages, then write it to "tidy_dataset.txt"
 
-CodeBook.txt - description of vatiables and data
+CodeBook.txt - description of variables and data
 
 run_analysis.R - source code
 
