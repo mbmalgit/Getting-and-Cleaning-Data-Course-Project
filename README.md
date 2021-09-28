@@ -15,3 +15,9 @@ Appropriately re-labels the data set with descriptive activity names. removing b
 Creating a final, independent tidy data set with the average of each variable for each activity and each subject. 
 
 Melting data and calculating averages, then write it to "tidy_dataset.txt"
+
+CodeBook.txt - description of vatiables and data
+
+run_analysis.R - source code
+
+tidy_dataset.txt - resulting data
