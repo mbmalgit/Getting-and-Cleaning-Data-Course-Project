@@ -1,0 +1,47 @@
+Code book describing the variables.
+
+For each record in the dataset it is provided:
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Triaxial Angular velocity from the gyroscope.
+- An identifier of the subject who carried out the experiment.
+
+Activity Labels:
+  V1: Activity index
+  V2: Activity label
+
+Features - A 561-feature vector with time and frequency domain variables.:
+  V1: Feature Index
+  V2: Feature label
+  
+Subject Test
+  V1: Each row identifies the subject who performed the activity for each window sample. Its range is from 2 to 24
+  
+Subject Train
+  V1: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
+  
+X_test:
+  V1-V50: Test set
+y_test:
+  V1: Test labels of activities by observation  
+  
+X_train:
+  V1-V50: - Training set
+y_train - Training labels:
+  V1: Train labels of activities by observation  
+  
+df - merged datasets from Test and Train sets
+MST_subset - indexes of features describes means or standard deviation for each measurement
+df then subsetted by MST subset and added columns of subsets and activities
+
+subject - binded rows of subjects from test and trains
+activity - binded rows of activities from test and trains
+
+activity_group - factors of datasource activites.
+
+baseData - melted data from datasource by subject and activities
+final_df - resulting dataframe from melted data with means by subject and activities data.
+
+
+  
+
+  
